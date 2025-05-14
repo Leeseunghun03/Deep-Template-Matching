@@ -1,0 +1,2 @@
+/home/dxr/anaconda3/envs/das/bin/python /home/dxr/DAS/Deep-Template-Matching/test.py  --ckpt_path='./logs/epoch=17-auc@1=0.175-auc@3=0.591-auc@5=0.748-auc@1=auc@10=0.874.ckpt' \
+--profiler_name inference --gpus=1 --accelerator="ddp"
